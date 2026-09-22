@@ -1,0 +1,27 @@
+---
+layout: page
+title: Courses
+permalink: /courses/
+lead: Courses offered by TRAIL faculty at the Department of Computer Engineering, METU.
+---
+<div class="courses">
+{% for c in site.data.courses %}
+  <article class="course">
+    <header>
+      <span class="course-code">{{ c.code }}</span>
+      <h2 class="course-title">{{ c.title }}</h2>
+    </header>
+    <ul class="course-facts">
+      {% if c.level != "" %}<li>{{ c.level }}</li>{% endif %}
+      {% if c.credits != "" %}<li>METU credit {{ c.credits }}</li>{% endif %}
+      {% if c.ects != "" %}<li>{{ c.ects }} ECTS</li>{% endif %}
+      {% if c.coordinator != "" %}<li>Coordinator: {{ c.coordinator }}</li>{% endif %}
+    </ul>
+    <p>{{ c.summary }}</p>
+    <p class="course-links">
+      {% if c.course_page and c.course_page != "" %}<a href="{{ c.course_page }}">Course page</a>{% endif %}
+      <a href="{{ c.catalog_url }}">METU catalog entry</a>
+    </p>
+  </article>
+{% endfor %}
+</div>

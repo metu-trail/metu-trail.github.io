@@ -1,0 +1,32 @@
+---
+layout: page
+title: Publications
+permalink: /publications/
+lead: Papers by TRAIL members on trustworthy and responsible AI, grouped by year. Names of the principal investigators are highlighted.
+---
+{%- comment -%}
+  The list comes from _data/publications.yml (updated by scripts/update.py).
+{%- endcomment -%}
+{%- assign pubs = site.data.publications -%}
+<div class="filters" data-filters hidden>
+  <div class="filter-group" role="group" aria-label="Filter by theme">
+    <button class="chip is-on" data-filter-theme="">All themes</button>
+    {% for t in site.data.themes %}<button class="chip" data-filter-theme="{{ t.key }}">{{ t.name }}</button>{% endfor %}
+  </div>
+  <div class="filter-group" role="group" aria-label="Filter by PI">
+    <button class="chip is-on" data-filter-pi="">All PIs</button>
+    {% for pi in site.data.pis %}<button class="chip" data-filter-pi="{{ pi.key }}">{{ pi.name }}</button>{% endfor %}
+  </div>
+  <p class="filter-count muted" aria-live="polite"><span data-count>{{ pubs.size }}</span> publications</p>
+</div>
+
+{%- assign by_year = pubs | group_by: "year" | sort: "name" | reverse -%}
+{% for g in by_year %}
+<section class="year-group">
+  <h2 class="year">{% if g.name == "" or g.name == nil %}Undated{% else %}{{ g.name }}{% endif %}</h2>
+  <ul class="pubs">
+    {% for p in g.items %}{% include pub.html pub=p %}{% endfor %}
+  </ul>
+</section>
+{% endfor %}
+<p class="filter-empty muted" hidden>No publications match these filters.</p>

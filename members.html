@@ -1,0 +1,26 @@
+---
+layout: page
+title: Members
+permalink: /members/
+lead: The people of TRAIL.
+---
+<section class="member-section">
+  <h2>Principal Investigators</h2>
+  <div class="people people-pis">
+    {% for m in site.data.pis %}{% include person.html person=m large=true %}{% endfor %}
+  </div>
+</section>
+
+<section class="member-section">
+  <h2>Graduate Students</h2>
+  <div class="people">
+    {% for m in site.data.members.students %}{% include person.html person=m %}{% endfor %}
+  </div>
+</section>
+
+<section class="member-section">
+  <h2>Past Members</h2>
+  <div class="people">
+    {% for m in site.data.members.alumni %}{% include person.html person=m %}{% endfor %}
+  </div>
+</section>
