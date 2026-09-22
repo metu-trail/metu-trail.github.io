@@ -93,7 +93,17 @@ h3 { font-size: 1.1rem; margin: 0; }
 }
 .header-inner { display: flex; align-items: center; justify-content: space-between; gap: 16px; min-height: 64px; }
 .brand { display: flex; align-items: center; gap: 12px; text-decoration: none; color: var(--ink); }
-.brand img { width: 40px; height: 40px; flex: none; }
+.brand img { flex: none; }
+.brand-mark { width: auto; height: 34px; }
+.hero-side { display: flex; flex-direction: column; gap: 16px; }
+.hero-logo { display: block; width: 100%; max-width: 340px; height: auto; margin: 0 auto 4px; }
+/* The logo is navy on white: give it a light tile in dark mode. */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .brand-mark,
+  :root:not([data-theme="light"]) .hero-logo { background: #fbfaf8; border-radius: 8px; padding: 4px 6px; }
+  :root:not([data-theme="light"]) .hero-logo { padding: 14px 18px; border-radius: 14px; }
+}
+:root[data-theme="dark"] .brand-mark, :root[data-theme="dark"] .hero-logo { background: #fbfaf8; border-radius: 8px; padding: 4px 6px; }
 .brand-text { display: flex; flex-direction: column; line-height: 1.15; }
 .brand-name { font-weight: 700; letter-spacing: .02em; }
 .brand-sub { font-size: .78rem; color: var(--muted); }
@@ -154,6 +164,8 @@ main > .prose, main > section { margin-bottom: 24px; }
 .hero-themes .theme-chip { display: block; font-size: 1.05rem; padding: 14px 18px; }
 @media (max-width: 760px) {
   .hero { grid-template-columns: 1fr; gap: 24px; padding-top: 36px; }
+  .hero-side { display: contents; }
+  .hero-logo { order: -1; max-width: 240px; margin: 0; }
   .hero-themes { flex-direction: row; flex-wrap: wrap; }
   .hero-themes .theme-chip { font-size: .9rem; padding: 8px 12px; }
 }

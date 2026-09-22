@@ -18,7 +18,7 @@ Open a file on GitHub, click the pencil icon, edit, and press **Commit changes**
 | Papers deliberately hidden              | `_data/publications_excluded.yml`       |
 | Courses                                 | `_data/courses.yml`                     |
 | Address, e-mail, menu                   | `_config.yml`                           |
-| Logo                                    | replace `assets/img/logo.svg`           |
+| Logo                                    | `assets/img/logo-full.png` (Home page), `assets/img/logo-mark.png` (header), `assets/img/favicon.png` (browser tab) |
 
 `.md` files are Markdown: `**bold**`, `*italic*`, `[link text](https://…)`, and `- ` for bullet lists.
 `.yml` files are lists of entries. Keep the indentation, and copy an existing entry to add a new one.
