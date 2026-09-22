@@ -1,0 +1,24 @@
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="{{ '/' | relative_url }}">
+      <img src="{{ '/assets/img/logo.svg' | relative_url }}" alt="" width="40" height="40">
+      <span class="brand-text">
+        <span class="brand-name">{{ site.title }}</span>
+        <span class="brand-sub">{{ site.long_title }}</span>
+      </span>
+    </a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+    <nav id="site-nav" class="site-nav">
+      {% for item in site.nav %}
+        {% if item.url == "/" %}
+          {% assign active = false %}{% if page.url == "/" or page.url == "/index.html" %}{% assign active = true %}{% endif %}
+        {% else %}
+          {% assign active = false %}{% if page.url contains item.url %}{% assign active = true %}{% endif %}
+        {% endif %}
+        <a href="{{ item.url | relative_url }}"{% if active %} class="active" aria-current="page"{% endif %}>{{ item.title }}</a>
+      {% endfor %}
+    </nav>
+  </div>
+</header>

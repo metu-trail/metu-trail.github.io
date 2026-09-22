@@ -1,0 +1,35 @@
+{%- comment -%}
+  Renders one member card. Usage: {% include person.html person=m %}
+{%- endcomment -%}
+{%- assign m = include.person -%}
+{%- if m.photo and m.photo != "" -%}
+  {%- assign img = '/assets/img/people/' | append: m.photo | relative_url -%}
+{%- else -%}
+  {%- assign img = '/assets/img/avatar.svg' | relative_url -%}
+{%- endif -%}
+<article class="person{% if include.large %} person-large{% endif %}">
+  {%- if m.url and m.url != "" -%}<a href="{{ m.url }}" class="person-photo" tabindex="-1">{%- else -%}<div class="person-photo">{%- endif -%}
+    <img src="{{ img }}" alt="{{ m.name }}" loading="lazy">
+  {%- if m.url and m.url != "" -%}</a>{%- else -%}</div>{%- endif -%}
+  <div class="person-body">
+    <h3 class="person-name">
+      {%- if m.url and m.url != "" -%}<a href="{{ m.url }}">{{ m.name }}</a>{%- else -%}{{ m.name }}{%- endif -%}
+    </h3>
+    {%- if m.position and m.position != "" -%}<div class="person-role">{{ m.position }}</div>{%- endif -%}
+    {%- if m.degree -%}<div class="person-role">{{ m.degree }}{% if m.year %}, {{ m.year }}{% endif %}</div>{%- endif -%}
+    {%- if m.topic and m.topic != "" -%}<div class="person-topic">{{ m.topic }}</div>{%- endif -%}
+    {%- if m.thesis and m.thesis != "" -%}<div class="person-topic">{{ m.thesis }}</div>{%- endif -%}
+    {%- if m.now and m.now != "" -%}<div class="person-topic">Now: {{ m.now }}</div>{%- endif -%}
+    {%- if m.advisors and m.advisors.size > 0 -%}
+      <div class="person-topic">Advisor{% if m.advisors.size > 1 %}s{% endif %}:
+        {% for k in m.advisors %}{% assign a = site.data.pis | where: "key", k | first %}{{ a.name | default: k }}{% unless forloop.last %}, {% endunless %}{% endfor %}
+      </div>
+    {%- endif -%}
+    {%- if m.scholar_id -%}
+      <div class="person-links">
+        {%- if m.url -%}<a href="{{ m.url }}">Homepage</a>{%- endif -%}
+        <a href="https://scholar.google.com/citations?user={{ m.scholar_id }}">Google Scholar</a>
+      </div>
+    {%- endif -%}
+  </div>
+</article>

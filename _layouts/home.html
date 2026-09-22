@@ -1,0 +1,45 @@
+---
+layout: default
+---
+<section class="hero">
+  <div class="hero-text">
+    <p class="eyebrow">Middle East Technical University · Department of Computer Engineering</p>
+    <h1>{{ site.long_title }}</h1>
+    <p class="hero-tagline">{{ page.tagline }}</p>
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="{{ '/research/' | relative_url }}">Our research</a>
+      <a class="btn" href="{{ '/publications/' | relative_url }}">Publications</a>
+    </div>
+  </div>
+  <ul class="hero-themes" aria-label="Research themes">
+    {% for t in site.data.themes %}
+      <li><a href="{{ '/research/' | relative_url }}#{{ t.key }}" class="theme-chip tag-{{ t.key }}">{{ t.name }}</a></li>
+    {% endfor %}
+  </ul>
+</section>
+
+<div class="prose home-prose">
+  {{ content }}
+</div>
+
+<section class="pi-strip" aria-label="Principal investigators">
+  <h2>Principal Investigators</h2>
+  <div class="pi-row">
+    {% for m in site.data.pis %}
+      <a class="pi-mini" href="{{ m.url }}">
+        <img src="{{ '/assets/img/people/' | append: m.photo | relative_url }}" alt="" loading="lazy">
+        <span>{{ m.name }}</span>
+      </a>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="contact">
+  <h2>Contact</h2>
+  <div class="contact-grid">
+    <address>
+      {% for line in site.address %}{{ line }}{% unless forloop.last %}<br>{% endunless %}{% endfor %}
+    </address>
+    <p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+  </div>
+</section>

@@ -1,0 +1,12 @@
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div>
+      <strong>{{ site.title }}</strong> — {{ site.long_title }}<br>
+      {% for line in site.address %}{{ line }}{% unless forloop.last %}<br>{% endunless %}{% endfor %}
+    </div>
+    <div class="footer-right">
+      <a href="mailto:{{ site.email }}">{{ site.email }}</a><br>
+      <span class="muted">© {{ site.time | date: "%Y" }} METU-TRAIL</span>
+    </div>
+  </div>
+</footer>

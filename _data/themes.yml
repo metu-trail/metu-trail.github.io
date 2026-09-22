@@ -1,0 +1,54 @@
+# Research themes. Edit freely on GitHub.
+#   key       : short id used in _data/publications.yml `themes:`
+#   name      : shown on the site
+#   summary   : the paragraph shown on the Research page
+#   keywords  : words the update script uses to *suggest* themes for new papers
+#               (you still confirm every paper)
+
+- key: fairness
+  name: Fairness
+  summary: >-
+    Models trained on historical data can inherit and amplify the biases in that data,
+    leading to systematically worse outcomes for some demographic groups. The central
+    challenges are measuring bias when sensitive attributes are scarce or noisy, separating
+    spurious correlations from causal ones, and mitigating bias without sacrificing overall
+    performance, especially in sensitive domains such as affective computing and mental-health
+    prediction.
+  keywords: [fair, bias, debias, gender, demographic, discriminat, equit, equality]
+
+- key: privacy
+  name: Privacy
+  summary: >-
+    AI systems increasingly learn from, and act on, personal data. Protecting that data calls
+    for methods that learn collaboratively without exposing individual contributions, and for
+    agents that can reason about, negotiate and resolve the conflicting privacy preferences of
+    the people they serve.
+  keywords: [privacy, private, federated, unlearning, membership inference, anonym, confidential, key protected]
+
+- key: explainability
+  name: Explainability
+  summary: >-
+    Deep networks are powerful but opaque. We need explanations that are faithful to what the
+    model actually computes, understandable by the people who rely on them, and measurable, so
+    that different explanation methods can be compared. This spans concept-based models,
+    quantitative analysis of saliency maps, disentangled representations and explainable
+    scientific forecasting.
+  keywords: [explain, explanation, interpretab, xai, saliency, heatmap, attribution, concept bottleneck, transparen, disentangl]
+
+- key: robustness
+  name: Robustness
+  summary: >-
+    A trustworthy model must keep working when its inputs change: under distribution shift,
+    common corruptions, out-of-distribution samples and deliberately crafted adversarial
+    perturbations. The challenges are to characterise these failure modes, to detect when a
+    model should not be trusted, and to train models that degrade gracefully.
+  keywords: [robust, adversarial, out-of-distribution, ood, distribution shift, uncertainty, calibrat, perturbation, hallucinat, trustworth, reliab]
+
+- key: alignment
+  name: AI Alignment
+  summary: >-
+    As AI systems become more capable and autonomous, their behaviour must stay consistent
+    with human intentions, preferences and social norms. This involves learning from human
+    feedback and rewards, building agents whose incentives lead to fair and cooperative
+    outcomes, and designing frameworks for studying human-AI interaction.
+  keywords: [alignment, aligned, human feedback, rlhf, preference, reward, social norm, social appropriateness, human-ai, value, jailbreak, harmful, safety]

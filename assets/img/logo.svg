@@ -1,0 +1,6 @@
+<!-- Placeholder logo: replace this file with the real one (keep the name logo.svg, or update _includes/header.html). -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="METU-TRAIL">
+  <rect width="64" height="64" rx="14" fill="#b3122b"/>
+  <path d="M32 10 L50 17 V31 C50 42 42 50 32 54 C22 50 14 42 14 31 V17 Z" fill="none" stroke="#fff" stroke-width="3.5" stroke-linejoin="round"/>
+  <path d="M23 32 L29.5 38.5 L41.5 26" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

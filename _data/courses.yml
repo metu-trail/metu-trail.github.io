@@ -1,0 +1,61 @@
+# Courses shown on the Courses page. Edit freely on GitHub.
+#   summary              : the text shown on the page (hand-written)
+#   catalog_description  : copied from the METU catalog by scripts/update.py
+#   credits/ects/level/coordinator : refreshed from the catalog by the script
+
+- code: CENG403
+  catalog_code: '5710403'
+  title: Introduction to Deep Learning
+  level: Undergraduate
+  credits: 3(3-0)
+  ects: '5.0'
+  coordinator: Prof. Dr. Sinan Kalkan
+  catalog_url: https://catalog.metu.edu.tr/course.php?prog=571&course_code=5710403
+  course_page: ''
+  summary: 'An introduction to deep learning for senior undergraduates: fundamental concepts in machine
+    learning, the history of artificial neuron models, perceptron learning, gradient descent and its alternatives,
+    multi-layer perceptrons, convolutional neural networks and recurrent neural networks.'
+  catalog_description: 'Fundamental concepts in machine learning; history of artificial neuron models;
+    perceptron learning; gradient descent and its alternatives: multi-layer perceptrons; convolutional
+    neural networks; recurrent neural networks.'
+- code: CENG501
+  catalog_code: '5710501'
+  title: Deep Learning
+  level: Graduate
+  credits: 3(3-0)
+  ects: '8.0'
+  coordinator: Assoc. Prof. Dr. Emre Akbaş
+  catalog_url: https://catalog.metu.edu.tr/course.php?prog=571&course_code=5710501
+  course_page: ''
+  summary: 'A graduate course on the foundations and practice of deep learning: optimisation and regularisation
+    of deep networks, convolutional and recurrent architectures, attention and transformers, and generative
+    models, with hands-on implementation of state-of-the-art methods.'
+  catalog_description: ''
+- code: CENG502
+  catalog_code: '5710502'
+  title: Advanced Deep Learning
+  level: Graduate
+  credits: 3(3-0)
+  ects: '8.0'
+  coordinator: Prof. Dr. Sinan Kalkan
+  catalog_url: https://catalog.metu.edu.tr/course.php?prog=571&course_code=5710502
+  course_page: ''
+  summary: A research-oriented graduate course on recent advances in deep learning. Students study current
+    literature on topics such as self-supervised learning, generative models, large language and vision-language
+    models and their trustworthiness, and reproduce results from recent papers.
+  catalog_description: ''
+- code: CENG7880
+  catalog_code: '5717880'
+  title: Trustworthy and Responsible AI
+  level: Graduate
+  credits: 3(3-0)
+  ects: '8.0'
+  coordinator: ''
+  catalog_url: https://catalog.metu.edu.tr/course.php?prog=571&course_code=5717880
+  course_page: ''
+  summary: Ethical concepts and principles of trust and responsibility in AI; computational methods for
+    dependability and robustness in AI; computational methods for explainability in AI; computational
+    methods for bias and fairness in AI.
+  catalog_description: Ethical concepts and principles of trust and responsibility in AI; computational
+    methods for dependability and i'obustness in AI; computational methods for explainability in AI; computational
+    methods for bias and faii'ness in AI.

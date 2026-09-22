@@ -1,0 +1,46 @@
+# Principal investigators. Edit freely on GitHub.
+#   name      : display name (authors written exactly like this are highlighted)
+#   aliases   : other spellings that also count as this PI in publication lists
+#   surname / initials : used by scripts/update.py to recognise "S Kalkan", "RG Cinbis", ...
+#   photo     : file in assets/img/people/
+#   dblp_pid  : optional; DBLP person id (from dblp.org/pid/<this>), used when Scholar blocks
+
+- key: akbas
+  name: Emre Akbaş
+  aliases: [Emre Akbas, E Akbas, E Akbaş, E. Akbas, E. Akbaş]
+  surname: Akbas
+  initials: [e]
+  url: https://user.ceng.metu.edu.tr/~emre
+  photo: emre-akbas.jpg
+  scholar_id: HeXAdnEAAAAJ
+  dblp_pid: ""
+
+- key: aydin
+  name: Hüseyin Aydın
+  aliases: [Huseyin Aydin, H Aydin, H Aydın, H. Aydin, H. Aydın]
+  surname: Aydin
+  initials: [h]
+  url: https://user.ceng.metu.edu.tr/~huseyin/
+  photo: huseyin-aydin.jpg
+  scholar_id: BIYf5mAAAAAJ
+  dblp_pid: ""
+
+- key: cinbis
+  name: Gökberk Cinbiş
+  aliases: [Gokberk Cinbis, Ramazan Gokberk Cinbis, Ramazan Gökberk Cinbiş, RG Cinbis, R G Cinbis, R. G. Cinbis, G Cinbis, RG Cinbiş, G Cinbiş]
+  surname: Cinbis
+  initials: [r, g]
+  url: https://user.ceng.metu.edu.tr/~gcinbis
+  photo: gokberk-cinbis.jpg
+  scholar_id: Za7uka8AAAAJ
+  dblp_pid: ""
+
+- key: kalkan
+  name: Sinan Kalkan
+  aliases: [S Kalkan, S. Kalkan]
+  surname: Kalkan
+  initials: [s]
+  url: https://user.ceng.metu.edu.tr/~skalkan/
+  photo: sinan-kalkan.jpg
+  scholar_id: yiAWeIAAAAAJ
+  dblp_pid: ""

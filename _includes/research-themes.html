@@ -1,0 +1,16 @@
+<nav class="theme-index" aria-label="Themes">
+{% for t in site.data.themes %}<a href="#{{ t.key }}" class="theme-chip tag-{{ t.key }}">{{ t.name }}</a>{% endfor %}
+</nav>
+{% for t in site.data.themes %}
+{% assign tpubs = site.data.publications | where_exp: "p", "p.themes contains t.key" %}
+<section class="theme" id="{{ t.key }}">
+<h2><span class="theme-dot tag-{{ t.key }}"></span>{{ t.name }}</h2>
+<p>{{ t.summary }}</p>
+<details{% if tpubs.size <= 6 %} open{% endif %}>
+<summary>{{ tpubs.size }} publication{% if tpubs.size != 1 %}s{% endif %}</summary>
+<ul class="pubs">
+{% for p in tpubs %}{% include pub.html pub=p show_year=true %}{% endfor %}
+</ul>
+</details>
+</section>
+{% endfor %}

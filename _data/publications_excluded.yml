@@ -1,0 +1,730 @@
+# Papers you decided NOT to show on the site. The update script will not ask
+# about these again. Delete an entry to be asked about it next time.
+
+- title: Building a Turkish Large Language Model via Continual Pre-Training and Parameter-Efficient Adaptation
+  year: 2026
+- title: 'Gaze4HRI: Zero-shot Benchmarking Gaze Estimation Neural-Networks for Human-Robot Interaction'
+  year: 2026
+- title: Intrinsic dimensionality as a model-free measure of class imbalance
+  year: 2026
+- title: 'LuMon: A Comprehensive Benchmark and Development Suite with Novel Datasets for Lunar Monocular
+    Depth Estimation'
+  year: 2026
+- title: 'MatchED: Crisp Edge Detection Using End-to-End, Matching-based Supervision'
+  year: 2026
+- title: 'MDE-VIO: Enhancing Visual-Inertial Odometry Using Learned Depth Priors'
+  year: 2026
+- title: 'ms-mamba: Multi-scale mamba for time-series forecasting'
+  year: 2026
+- title: Occupancy modeling using population statistics and machine learning for urban residential built
+    environment
+  year: 2026
+- title: 'Pdv: Prompt directional vectors for zero-shot composed image retrieval'
+  year: 2026
+- title: 'Q-Former autoencoder: A modern framework for medical anomaly detection'
+  year: 2026
+- title: 'REIGN: Refurbished Embeddings with Integrated Guidance Networks for Efficient Context-Length
+    Scaling'
+  year: 2026
+- title: Representation recycling for streaming video analysis
+  year: 2026
+- title: 3D Human Mesh Estimation from Single View RGBD
+  year: 2025
+- title: A method for zone-level urban building energy modeling in data-scarce built environments
+  year: 2025
+- title: Basic Building Blocks and Properties of Systems
+  year: 2025
+- title: Basic Building Blocks of Signals
+  year: 2025
+- title: 'Colorectal Cancer Tumor Grade Segmentation in Digital Histopathology Images: from GIGA to Mini
+    Challenge'
+  year: 2025
+- title: 'Colorectal cancer tumor grade segmentation: A new dataset and baseline results'
+  year: 2025
+- title: Continuous Time Fourier Transform and Its Extension to Laplace Transform
+  year: 2025
+- title: Continuous Time Sampling
+  year: 2025
+- title: 'DARKIN: a zero-shot benchmark for phosphosite–dark kinase association using protein language
+    models'
+  year: 2025
+- title: Data Imbalance in Large-Scale Face Recognition B ykl ekli Y z Tanimada Veri Dengesizligi
+  year: 2025
+- title: 'DeepKin: Predicting Relatedness From Low‐Coverage Genomes and Palaeogenomes With Convolutional
+    Neural Networks'
+  year: 2025
+- title: 'Digital Twins for Climate-Positive Cities: Integrating Local Climate Zones with Solar Energy
+    Technologies and Nature-Based Solutions'
+  year: 2025
+- title: Discrete Time Fourier Transform and Its Extension to z‐Transforms
+  year: 2025
+- title: Discrete Time Sampling and Processing
+  year: 2025
+- title: Exploring sparsity for parameter efficient fine tuning using wavelets
+  year: 2025
+- title: 'FanNet: A mesh convolution operator for learning dense maps'
+  year: 2025
+- title: Fourier Series Representation of Continuous Time Periodic Signals
+  year: 2025
+- title: Fourier Series Representation of Discrete Time Periodic Signals
+  year: 2025
+- title: HIGH-PERFORMANCE OBJECT DETECTION SYSTEM USING HDR IMAGES OBTAINED FROM LDR CAMERAS IN AUTONOMOUS
+    VEHICLES
+  year: 2025
+- title: Interchangeable Token Embeddings for Extendable Vocabulary and Alpha-Equivalence
+  year: 2025
+- title: Introduction to Systems and Signals
+  year: 2025
+- title: Linear Time‐Invariant Systems as Filters
+  year: 2025
+- title: Machine learning based prediction of long-term energy consumption and overheating under climate
+    change impacts using urban building energy modeling
+  year: 2025
+- title: 'Meta-lora: Meta-learning lora components for domain-aware id personalization'
+  year: 2025
+- title: Multimodal multimedia information retrieval through the integration of fuzzy clustering, OWA-based
+    fusion, and Siamese neural networks
+  year: 2025
+- title: Patch relevance estimation and multilabel augmentation for weakly supervised histopathology image
+    classification
+  year: 2025
+- title: Population-based exploration in reinforcement learning through repulsive reward shaping using
+    eligibility traces
+  year: 2025
+- title: Representation of Linear Time‐Invariant Systems by Impulse Response and Convolution Operation
+  year: 2025
+- title: Representation of LTI Systems by Differential and Difference Equations
+  year: 2025
+- title: 'Resilient Cooling Strategies for Mitigating Indoor Overheating in Mixed-Use Neighborhood: A
+    UBEM-Based Retrofit Approach Considering Climate Change'
+  year: 2025
+- title: 'RSPose: Ranking Based Losses for Human Pose Estimation'
+  year: 2025
+- title: 'Signals and Systems: Theory and Practical Explorations with Python'
+  year: 2025
+- title: System for estimating a three dimensional pose of one or more persons in a scene
+  year: 2025
+- title: System for training neural networks that predict the parameters of a human mesh model using dense
+    depth and part-based UV map annotations
+  year: 2025
+- title: Transfer learning and parameter-efficient fine-tuning for heating energy consumption prediction
+    using urban building energy models (UBEM)
+  year: 2025
+- title: 'Transformers in Small Object Detection: A Benchmark and Survey of State-of-the-Art'
+  year: 2025
+- title: Unsupervised Image Classification with Adaptive Nearest Neighbor Selection and Cluster Ensembles
+  year: 2025
+- title: Urban-Scale Prediction of Heat Pump Energy Demand with Low Temporal Resolution Data
+  year: 2025
+- title: 'WAIT: Feature warping for animation to illustration video translation using GANs'
+  year: 2025
+- title: A Comparison of Deep Learning Models for Proton Background Rejection with the AMS Electromagnetic
+    Calorimeter
+  year: 2024
+- title: A multi-level multi-label text classification dataset of 19th century Ottoman and Russian literary
+    and critical texts
+  year: 2024
+- title: 'AIDCON: An aerial image dataset and benchmark for construction machinery'
+  year: 2024
+- title: 'Basenet: a learning-based mobile manipulator base pose sequence planning for pickup tasks'
+  year: 2024
+- title: Bucketed Ranking-based Losses for Efficient Training of Object Detectors
+  year: 2024
+- title: Cross-lingual few-shot sign language recognition
+  year: 2024
+- title: 'DARKIN: A zero-shot classification benchmark and an evaluation of protein language models'
+  year: 2024
+- title: Dense depth alignment for human pose and shape estimation
+  year: 2024
+- title: 'Derin Öğrenmede Uzun Erimli Etkileşimlerin Modellenmesi: Dikkat (Attention) ve Dönüştürücüler
+    (Transformers)'
+  year: 2024
+- title: Early-exit convolutional neural networks
+  year: 2024
+- title: Learning to Estimate System Specifications in Linear Temporal Logic using Transformers and Mamba
+  year: 2024
+- title: MoCap-to-Visual Domain Adaptation for Efficient Human Mesh Estimation from 2D Keypoints
+  year: 2024
+- title: Perspectives of Machine Learning and Natural Language Processing on Characterizing Positive Energy
+    Districts
+  year: 2024
+- title: Perspectives of Machine Learning and Natural Language Processing on Characterizing Positive Energy
+    Districts. Buildings 2024, 14, 371
+  year: 2024
+- title: Potential-based reward shaping using state–space segmentation for efficiency in reinforcement
+    learning
+  year: 2024
+- title: 'Pre-grasp approaching on mobile robots: A pre-active layered approach'
+  year: 2024
+- title: Programming with Python for Engineers
+  year: 2024
+- title: 'RankED: Addressing Imbalance and Uncertainty in Edge Detection Using Ranking-based Losses'
+  year: 2024
+- title: Reviewer Summary for Transactions on Image Processing
+  year: 2024
+- title: 'SAR2ET: End-to-end SAR-driven multisource ET imagery estimation over croplands'
+  year: 2024
+- title: 'SegIns: A simple extension to instance discrimination task for better localization learning'
+  year: 2024
+- title: 'Shadow-aware terrain classification: advancing hyperspectral image sensing through generative
+    adversarial networks and correlated sample synthesis'
+  year: 2024
+- title: System for estimating a pose of one or more persons in a scene
+  year: 2024
+- title: Utilizing Class-Agnostic Point-to-Box Regressors as Object Proposal Generators
+  year: 2024
+- title: 'XoFTR: Cross-modal Feature Matching Transformer'
+  year: 2024
+- title: A Novel Graph Neural Network for Zone-Level Urban-Scale Building Energy Use Estimation
+  year: 2023
+- title: 'Apprentice: advances toward the development of a cobot helper in assembly lines'
+  year: 2023
+- title: 'Class uncertainty: A measure to mitigate class imbalance'
+  year: 2023
+- title: 'Correlation Loss: Enforcing Correlation between Classification and Localization'
+  year: 2023
+- title: Crowd-aware Thresholded Loss for Object Detection in Wide Area Motion Imagery
+  year: 2023
+- title: Generalized Mask-aware IoU for Anchor Assignment for Real-time Instance Segmentation
+  year: 2023
+- title: Görsel Tanıma Problemlerinde Sınıf Dengesizliğini Ölçerek Ve Belirsizlik Kullanarak İyileştirme
+    (Denge)
+  year: 2023
+- title: Improving sketch colorization using adversarial segmentation consistency
+  year: 2023
+- title: Learning Lie Groups Acting on the Manifolds Generated by Linear Differential Equations
+  year: 2023
+- title: Meta-tuning Loss Functions and Data Augmentation for Few-shot Object Detection
+  year: 2023
+- title: 'TMO-Det: Deep tone-mapping optimized with and for object detection'
+  year: 2023
+- title: Towards Causal Replay for Knowledge Rehearsal in Continual Learning
+  year: 2023
+- title: 'Vision datasets: A benchmark for vision-based industrial inspection'
+  year: 2023
+- title: A Recurrent and Meta-learned Model of Weakly Supervised Object Localization
+  year: 2022
+- title: An Analysis on Disentanglement in Machine Learning Makine Öǧrenmesinde Ayrişiklik Üzerine Bir
+    Analiz
+  year: 2022
+- title: 'AssembleRL: Learning to Assemble Furniture from Their Point Clouds'
+  year: 2022
+- title: Caption Generation on Scenes with Seen and Unseen Object Categories
+  year: 2022
+- title: Character Generation Through Self Supervised Vectorization
+  year: 2022
+- title: Closed-form Sample Probing for Learning Generative Models in Zero-shot Learning
+  year: 2022
+- title: Compiling Open Datasets to Improve Urban Building Energy Models with Occupancy and Layout Data
+  year: 2022
+- title: 'DeepSide: a deep learning approach for drug side effect prediction'
+  year: 2022
+- title: Does depth estimation help object detection?
+  year: 2022
+- title: Fostering Earth Observation market uptake thanks to natural and holistic access to added value
+    data generated through cutting-edge Artificial Intelligence technologies
+  year: 2022
+- title: Hand-crafted versus learned representations for audio event detection
+  year: 2022
+- title: 'HoughNet: Integrating near and long-range evidence for visual detection'
+  year: 2022
+- title: Improved Knowledge Distillation with Dynamic Network Pruning
+  year: 2022
+- title: 'MaskSplit: Self-supervised Meta-learning for Few-shot Semantic Segmentation'
+  year: 2022
+- title: 'Object Detection for Autonomous Driving: High-Dynamic Range vs. Low-Dynamic Range Images'
+  year: 2022
+- title: Segment Augmentation and Differentiable Ranking for Logo Retrieval
+  year: 2022
+- title: Semantics-driven attentive few-shot learning over clean and noisy samples
+  year: 2022
+- title: Streaming Multiscale Deep Equilibrium Models
+  year: 2022
+- title: Towards zero-shot sign language recognition
+  year: 2022
+- title: Traffic Prediction with Peak-Aware Temporal Graph Convolutional Networks
+  year: 2022
+- title: Using chains of bottleneck transitions to decompose and solve reinforcement learning tasks with
+    hidden states
+  year: 2022
+- title: Using Frequencies of Transitions to Improve Reinforcement Learning with Hidden States
+  year: 2022
+- title: Vision-based estimation of the number of occupants using video cameras
+  year: 2022
+- title: A Deeper Look into Convolutions via Eigenvalue-based Pruning
+  year: 2021
+- title: Adversarial segmentation loss for sketch colorization
+  year: 2021
+- title: 'APPRENTICE: Towards a Cobot Helper in Assembly Lines'
+  year: 2021
+- title: 'AULA-Caps: Lifecycle-Aware Capsule Networks for Spatio-Temporal Analysis of Facial Actions'
+  year: 2021
+- title: Automated learning rate search using batch-level cross-validation
+  year: 2021
+- title: Derin Sinir Ağları Ile Videolarda Nesne Algılama
+  year: 2021
+- title: HDR Image Construction from Trifocal Multiexposure Images
+  year: 2021
+- title: 'HPRNet: Hierarchical point regression for whole-body human pose estimation'
+  year: 2021
+- title: Lifelong Learning and Personalization in Long-Term Human-Robot Interaction (LEAP-HRI)
+  year: 2021
+- title: Mask-aware iou for anchor assignment in real-time instance segmentation
+  year: 2021
+- title: 'One metric to measure them all: Localisation Recall Precision (LRP) for evaluating visual detection
+    tasks'
+  year: 2021
+- title: Rank & sort loss for object detection and instance segmentation
+  year: 2021
+- title: 'Red Carpet to Fight Club: Partially-supervised Domain Transfer for Face Recognition in Violent
+    Videos'
+  year: 2021
+- title: Reinforcement learning versus conventional control for controlling a planar bi-rotor platform
+    with tail appendage
+  year: 2021
+- title: Speech Driven Gaze in a Face-to-Face Interaction
+  year: 2021
+- title: Weakly supervised instance attention for multisource fine-grained object recognition with an
+    application to tree species classification
+  year: 2021
+- title: A Ranking-based, Balanced Loss Function Unifying Classification and Localisation in Object Detection
+  year: 2020
+- title: 'Alet (automated labeling of equipment and tools): A dataset for tool detection and human worker
+    safety detection'
+  year: 2020
+- title: BASİT VE ÇOKLU REGRESYON ANALİZLERİ İLE KOMPAKSİYON PARAMETRELERİNİN TAHMİN EDİLMESİ VE F TESTİ
+    İLE ANLAMLILIĞININ İNCELENMESİ
+  year: 2020
+- title: 'Continual Learning for Affective Robotics: Why, What and How?'
+  year: 2020
+- title: 'GANILLA: Generative adversarial networks for image to illustration translation'
+  year: 2020
+- title: Generating positive bounding boxes for balanced training of object detectors
+  year: 2020
+- title: Graph convolutional networks for region of interest classification in breast histopathology
+  year: 2020
+- title: 'HoughNet: Integrating near and long-range evidence for bottom-up object detection'
+  year: 2020
+- title: Image-based construction of building energy models using computer vision
+  year: 2020
+- title: 'Imbalance Problems in Object Detection: A Review'
+  year: 2020
+- title: Late temporal modeling in 3d cnn architectures with bert for action recognition
+  year: 2020
+- title: Low-level multiscale image segmentation and a benchmark for its evaluation
+  year: 2020
+- title: Reducing Label Noise in Anchor-Free Object Detection
+  year: 2020
+- title: Single-image super-resolution analysis in DCT spectral domain
+  year: 2020
+- title: Spatio-Temporal Analysis of Facial Actions using Lifecycle-Aware Capsule Networks
+  year: 2020
+- title: Vision-based lighting state detection and curtain openness ratio prediction
+  year: 2020
+- title: Activity Learning from Lifelogging Images
+  year: 2019
+- title: Automated building energy modeling for existing buildings using computer vision
+  year: 2019
+- title: Compact frequency memory for reinforcement learning with hidden states
+  year: 2019
+- title: 'COSMO: Contextualized scene modeling with Boltzmann Machines'
+  year: 2019
+- title: Cross-task weakly supervised learning from instructional videos
+  year: 2019
+- title: Deep 3D semantic scene extrapolation
+  year: 2019
+- title: Gradient matching generative networks for zero-shot learning
+  year: 2019
+- title: Image Captioning with Unseen Objects
+  year: 2019
+- title: Learning to generate unambiguous spatial referring expressions for real-world environments
+  year: 2019
+- title: Learning Visually Consistent Label Embeddings for Zero-Shot Learning
+  year: 2019
+- title: 'MicroExpNet: An Extremely Small and Fast Model For Expression Recognition From Face Images'
+  year: 2019
+- title: Modeling and Decoding Complex Problem Solving Process by Artificial Neural Networks
+  year: 2019
+- title: Multisource region attention network for fine-grained object recognition in remote sensing imagery
+  year: 2019
+- title: Searching for Ambiguous Objects in Videos using Relational Referring Expressions
+  year: 2019
+- title: Self-Supervised Learning of 3D Human Pose Using Multi-View Geometry
+  year: 2019
+- title: Some notes on Deep Hierarchies in Human/Biological Vision
+  year: 2019
+- title: Video Content Analysis-Based Detection of Occupant Presence for Building Energy Modelling
+  year: 2019
+- title: Weakly supervised deep convolutional networks for fine-grained object recognition in multispectral
+    images
+  year: 2019
+- title: 'Zero-Shot Sign Language Recognition: Can Textual Data Uncover Sign Languages?'
+  year: 2019
+- title: A deep incremental boltzmann machine for modeling context in robots
+  year: 2018
+- title: 'CINet: A Learning Based Approach to Incremental Context Modeling in Robots'
+  year: 2018
+- title: Derin Sinir Ağı Tabanlı Nesne Algılama Yöntemlerine Bağlam Modeli Entegre Edilmesi
+  year: 2018
+- title: Derin Öğrenme
+  year: 2018
+- title: Fine-grained object recognition and zero-shot learning in multispectral imagery
+  year: 2018
+- title: Learning to Increment a Contextual Model
+  year: 2018
+- title: 'Localization Recall Precision (LRP): A new performance metric for object detection'
+  year: 2018
+- title: 'MAGiC: A multimodal framework for analysing gaze in dyadic communication'
+  year: 2018
+- title: 'MultiPoseNet: Fast multi-person pose estimation using pose residual network'
+  year: 2018
+- title: Uzaktan Algılamalı Görüntülerde Detaylı Nesne Tanıma için Çok Kaynaklı Derin Öğrenme
+  year: 2018
+- title: What is (missing or wrong) in the scene? A Hybrid Deep Boltzmann Machine For Contextualized Scene
+    Modeling
+  year: 2018
+- title: Who draw this? Caricaturist recognition using convolutional neural networks
+  year: 2018
+- title: Who draw this? Caricaturist recognition using convolutional neural networks Bunu kim çizdi? Evrişimsel
+    sinir aǧlari ile karikatürist tanima
+  year: 2018
+- title: 'Wildest faces: Face detection and recognition in violent settings'
+  year: 2018
+- title: Zero-shot object detection by hybrid region embedding
+  year: 2018
+- title: A Gaze-Centered Multimodal Approach to Human-Human Social Interaction
+  year: 2017
+- title: A Large-scale Dataset and Benchmark for Similar Trademark Retrieval
+  year: 2017
+- title: Analyzing deep features for trademark retrieval
+  year: 2017
+- title: 'Attributes2Classname: A discriminative model for attribute-based unsupervised zero-shot learning'
+  year: 2017
+- title: Automatic identification of transitional bottlenecks in reinforcement learning under partial
+    observability
+  year: 2017
+- title: Could we create a training set for image captioning using automatic translation?
+  year: 2017
+- title: Could we create a training set for image captioning using automatic translation? Görüntü Altyazilama
+    için Otomatik Tercüeyle Eǧitim Kümesi Oluşturulabilir mi?
+  year: 2017
+- title: Drone-vs-bird detection challenge at ieee avss2017
+  year: 2017
+- title: 'Dynamic gaze analysis: An application enviroment for face-to-face communication'
+  year: 2017
+- title: Fine-grained object recognition and zero-shot learning in remote sensing imagery
+  year: 2017
+- title: Görüntü Altyazılama için Otomatik Tercümeyle Egitim Kümesi Olusturulabilir mi? Could We Create
+    A Training Set For Image Captioning Using Automatic Translation?
+  year: 2017
+- title: Humans, but not deep neural networks, often miss giant targets in scenes
+  year: 2017
+- title: Marka ErisimiIçin Derin ÖzniteliklerinIncelenmesi Analyzing Deep Features for Trademark Retrieval
+  year: 2017
+- title: Object detection through search with a foveated visual system
+  year: 2017
+- title: Supervised infinite feature selection
+  year: 2017
+- title: Using deep networks for drone detection
+  year: 2017
+- title: Using Transitional Bottlenecks to Improve Learning in Nearest Sequence Memory Algorithm
+  year: 2017
+- title: CEng 783–Deep Learning
+  year: 2016
+- title: 'CoSPAIR: Colored Histograms of Spatial Concentric Surflet-Pairs for 3D Object Recognition'
+  year: 2016
+- title: Decoding cognitive states using the bag of words model on fMRI time series
+  year: 2016
+- title: Deep Reinforcement Learning
+  year: 2016
+- title: Learning Context on a Humanoid Robot using Incremental Latent Dirichlet Allocation
+  year: 2016
+- title: Performance evaluation of similarity measures for dense multimodal stereovision
+  year: 2016
+- title: 'Piranhas Toolkit: Peripheral Architectures for Natural, Hybrid and Artificial Systems'
+  year: 2016
+- title: Shape retrieval of low-cost RGB-D captures
+  year: 2016
+- title: Visual Saliency Estimation via Attribute Based Classifiers and Conditional Random Field
+  year: 2016
+- title: Weakly supervised object localization with multi-fold multiple instance learning
+  year: 2016
+- title: 2014 Index IEEE Transactions on Pattern Analysis and Machine Intelligence Vol. 36
+  year: 2015
+- title: A Probabilistic Concept Web on a Humanoid Robot
+  year: 2015
+- title: An iterative adaptive multi-modal stereo-vision method using mutual information
+  year: 2015
+- title: An MRF framework for co-solving image segmentation and border ownership
+  year: 2015
+- title: Approximate Fisher Kernels of non-iid Image Models for Image Categorization
+  year: 2015
+- title: Hyperspectral target detection-An experimental study
+  year: 2015
+- title: Integrating spatial concepts into a probabilistic concept web
+  year: 2015
+- title: 'METU dataset: A big dataset for benchmarking trademark retrieval'
+  year: 2015
+- title: Optimal and human eye movements to clustered low value cues to increase decision rewards during
+    search
+  year: 2015
+- title: Scene context reduces distractor set-size effects during search
+  year: 2015
+- title: 'Self-management of patients with severe arthritis through a Personal Health System: The Turkish
+    case study in the PALANTE project'
+  year: 2015
+- title: Towards an Embodied Developing Vision System
+  year: 2015
+- title: Vision-Based Detection and Distance Estimation of Micro Unmanned Aerial Vehicles
+  year: 2015
+- title: A framework for machine vision based on neuro-mimetic front end processing and clustering
+  year: 2014
+- title: Analysis of widely-used descriptors for finger-vein recognition
+  year: 2014
+- title: Classification d'images et localisation d'objets par des méthodes de type noyau de Fisher
+  year: 2014
+- title: Fisher kernel based models for image classification and object localization
+  year: 2014
+- title: GörüntüIsleme ile MikroInsansız Hava Araçlarının Algılanması
+  year: 2014
+- title: Low-level hierarchical multiscale segmentation statistics of natural images
+  year: 2014
+- title: Multi-fold mil training for weakly supervised object localization
+  year: 2014
+- title: 'Using slowness principle for feature selection: Relevant feature analysis'
+  year: 2014
+- title: Verb concepts from affordances
+  year: 2014
+- title: A comprehensive database for border ownership
+  year: 2013
+- title: 'A novel shape descriptor: Intersection Consistency Histograms'
+  year: 2013
+- title: Co-learning nouns and adjectives
+  year: 2013
+- title: 'Deep hierarchies in the primate visual cortex: What can we learn for computer vision?'
+  year: 2013
+- title: Extraction of border ownership information by conditional random field model
+  year: 2013
+- title: 'Global Binary Patterns: A Novel Shape Descriptor.'
+  year: 2013
+- title: Learning of eye movements for human and optimal models during search in complex statistical environments
+  year: 2013
+- title: Multimodal Stereo Vision Using Mutual Information with Adaptive Windowing.
+  year: 2013
+- title: Optimal search by initially looking away from the target in the presence of remote cues
+  year: 2013
+- title: Range analysis of junctions
+  year: 2013
+- title: Recurrent Slow Feature Analysis for Developing Object Permanence in Robots
+  year: 2013
+- title: Relating affordances with verbs, nouns and adjectives
+  year: 2013
+- title: Relating peripheral processing ability to learning in a visual search task
+  year: 2013
+- title: Segmentation driven object detection with fisher vectors
+  year: 2013
+- title: The learning of adjectives and nouns from affordance and appearance features
+  year: 2013
+- title: Contextual object detection using set-based classification
+  year: 2012
+- title: Disparity disambiguation by fusion of signal-and symbolic-level information
+  year: 2012
+- title: Human and robotics hands grasping danger
+  year: 2012
+- title: Human versus bayesian optimal learning of eye movement strategies during visual search
+  year: 2012
+- title: Image categorization using Fisher kernels of non-iid image models
+  year: 2012
+- title: Image Classification and Object Detection Using Spatial Contextual Constraints
+  year: 2012
+- title: Introduction to programming concepts with case studies in python
+  year: 2012
+- title: Learning Adjectives and Nouns from Affordances on the iCub Humanoid Robot
+  year: 2012
+- title: Towards Context-aware Adjective Learning
+  year: 2012
+- title: Generation and analysis of segmentation trees for natural images
+  year: 2011
+- title: 'MIS-Boost: Multiple instance selection boosting'
+  year: 2011
+- title: Unsupervised metric learning for face identification in TV video
+  year: 2011
+- title: Affordances and Emergence of Concepts
+  year: 2010
+- title: Early cognitive vision as a front-end for cognitive systems
+  year: 2010
+- title: Learning affordances for categorizing objects and their properties
+  year: 2010
+- title: Low-level image segmentation based scene classification
+  year: 2010
+- title: Pedestrian recognition with a learned metric
+  year: 2010
+- title: Using multi-modal 3D contours and their relations for vision and robotics
+  year: 2010
+- title: Bayesian classification of image structures
+  year: 2009
+- title: 'BIRTH OF THE OBJECT: DETECTION OF OBJECTNESS AND EXTRACTION OF OBJECT SHAPE THROUGH OBJECT–ACTION
+    COMPLEXES'
+  year: 2009
+- title: Continuous dimensionality characterization of image structures
+  year: 2009
+- title: From ramp discontinuities to segmentation tree
+  year: 2009
+- title: Image mining using directional spatial constraints
+  year: 2009
+- title: Learning actions from the web
+  year: 2009
+- title: Using 3d contours and their relations for cognitive vision and robotics
+  year: 2009
+- title: 2009 Index IEEE Transactions on Pattern Analysis and Machine Intelligence Vol. 31
+  year: 2008
+- title: A signal-symbol loop mechanism for enhanced edge extraction
+  year: 2008
+- title: Depth prediction at homogeneous image structures
+  year: 2008
+- title: Early reactive grasping with second order 3d feature relations
+  year: 2008
+- title: Exploration and planning in a three-level cognitive architecture
+  year: 2008
+- title: Human action recognition with line and flow histograms
+  year: 2008
+- title: Multi-modal statistics of local image structures and its applications for depth prediction
+  year: 2008
+- title: Recognizing actions from still images
+  year: 2008
+- title: Reconstruction uncertainty and 3D relations
+  year: 2008
+- title: Relations Between Reconstructed 3D Entities.
+  year: 2008
+- title: Semantic reasoning for scene interpretation
+  year: 2008
+- title: 'Statistics of Images for Feedback in Vision: with Applications to Different Vision Problems'
+  year: 2008
+- title: A scene representation based on multi-modal 2d and 3d features
+  year: 2007
+- title: AdaBoost and Its Use In Object Detection
+  year: 2007
+- title: Automatic image annotation by ensemble of visual descriptors
+  year: 2007
+- title: Fire detection in infrared video using wavelet analysis
+  year: 2007
+- title: First-order and second-order statistical analysis of 3d and 2d image structure
+  year: 2007
+- title: Improving junction detection by semantic interpretation
+  year: 2007
+- title: Model-independent grasping initializing object-model learning in a cognitive architecture
+  year: 2007
+- title: Modeling spatial relationships in images
+  year: 2007
+- title: Morphological Modeling of Position-Based Spatial Relationships
+  year: 2007
+- title: Perceptual operations and relations between 2d or 3d visual entities
+  year: 2007
+- title: Relative position-based spatial relationships using mathematical morphology
+  year: 2007
+- title: Robotics Group The Maersk Mc-Kinney Moller Institute University of Southern Denmark
+  year: 2007
+- title: STATISTICAL ANALYSIS OF SECOND-ORDER RELATIONS OF 3D STRUCTURES
+  year: 2007
+- title: Utilizing semantic interpretation of junctions for 3d-2d pose estimation
+  year: 2007
+- title: A comparison of features spaces for face recognition problem
+  year: 2006
+- title: A hierarchical classification system based on adaptive resonance theory
+  year: 2006
+- title: AUTOMATIC IMAGE ANNOTATION BY ENSEMBLE OF VISUAL
+  year: 2006
+- title: Continuous characterization of image structures of different dimensionality
+  year: 2006
+- title: Design of a feature set for face recognition problem
+  year: 2006
+- title: Görsel tanımlayıcı topluluklarıyla otomatik görüntü açıklama.
+  year: 2006
+- title: Statistical analysis of local 3d structure in 2d images
+  year: 2006
+- title: A comparison of fuzzy ARTMAP and adaboost methods in image retrieval problems
+  year: 2005
+- title: A comparison of fuzzy ARTMAP and AdaBoost methods in image retrieval problems Görüntü erişiminde
+    bulanik ARTMAP ve AdaBoost yöntemlerinin karşilaştirmasi
+  year: 2005
+- title: Cross-modal relations in early-cognitive vision
+  year: 2005
+- title: Local image structures and optic flow estimation
+  year: 2005
+- title: Optic flow statistics and intrinsic dimensionality
+  year: 2004
+- title: A comparative study of evolutionary network design
+  year: 2003
+- title: 'Project Proposal: A Multiresolution Stochastic Approach for Shape From Shading Using Intensity
+    Gradient Constraint'
+  year: 2003
+- title: 4.13 Affordances, Verbs, Nouns and Adjectives
+  year: null
+- title: A Ranking-based, Balanced Loss Function Unifying Classification and Localisation in Object Detection
+    Open Website
+  year: null
+- title: Alessandro Artusi, CYENS CoE Majid Asadi, Hamedan University of Technology Pedro Assuncao, Instituto
+    de Telecomunicacoes and Polytechnic of Leiria Indriyati Atmosukarto …
+  year: null
+- title: Baglamın Hiyerarsik Dogası
+  year: null
+- title: Bunu Kim Çizdi? Evrisimsel Sinir Agları ile Karikatürist Tanıma Who Draw This? Caricaturist Recognition
+    using Convolutional Neural Networks
+  year: null
+- title: Dinamik Gözbakışı Analizi
+  year: null
+- title: 'HybridAugment++: Unified Frequency Spectra Perturbations for Model Robustness-Supplementary
+    Material'
+  year: null
+- title: 'Imbalance Problems in Object Detection: A'
+  year: null
+- title: Insansı Robotlarda Baglamın Ögrenilmesi
+  year: null
+- title: Konuma bağlı uzamsal ilişkilerin biçimbilimsel modellenmesi
+  year: null
+- title: Koşullu Rastgele Alan Modeli ile Sınır Sahipliği Bilgisi Çıkarımı Extraction of Border Ownership
+    Information by Conditional Random Field Model
+  year: null
+- title: Learning and Using Context on a Humanoid Robot Using Latent Dirichlet Allocation
+  year: null
+- title: Learning Social Affordances and Using Them for Planning
+  year: null
+- title: Modular Distillation Makes Small Models Think Like Big Ones
+  year: null
+- title: MRA ileImge Bölütleme ve Sınır Sahipligi Problemlerinin Es Zamanlı Çözümü An MRF Framework For
+    Co-Solving Image Segmentation and Border Ownership
+  year: null
+- title: Multispektral Görüntülerde İnce Taneli Nesne Tanıma ve Örneksiz Öğrenme
+  year: null
+- title: Nitelik tabanlı sınıflandırıcılar ve koşullu rastgele alan ile dikkat çeken görsel bölge tespiti
+  year: null
+- title: Relating Local Image Structure to 3D Structure
+  year: null
+- title: 'Robotlarda Baglam ve Kavram: Fazla Yakın, Çok Uzak'
+  year: null
+- title: Saglarlık ile Fiiller, Isimler ve Sıfatların Iliskilendirilmesi Relating Affordances with Verbs,
+    Nouns and Adjectives
+  year: null
+- title: 'SHREC’16 Track: Shape Retrieval of Low-Cost RGB-D Captures'
+  year: null
+- title: Supplementary Material for “A Ranking-based, Balanced Loss Function Unifying Classification and
+    Localisation in Object Detection”
+  year: null
+- title: Supplementary Material for “Bucketed Ranking-based Losses for Efficient Training of Object Detectors”
+  year: null
+- title: Supplementary Material for “Rank & Sort Loss for Object Detection and Instance Segmentation”
+  year: null
+- title: 'Supplementary Material: Meta-tuning Loss Functions and Data Augmentation for Few-shot Object
+    Detection'
+  year: null
+- title: Transfer Learning-Based Prediction of Heating Energy Consumption Using Urban Building Energy
+    Models (UBEM)
+  year: null
+- title: Useful Daylight Illuminance Prediction Under Data Imbalance in an Urban Context
+  year: null
+- title: 'Yavaslık Ilkesini Kullanarak Öznitelik Seçimi: Alakalı Öznitelik Analizi Using Slowness Principle
+    for Feature Selection: Relevant Feature Analysis'
+  year: null
+- title: 'Yeni Bir Sekil Betimleyici: Kesisimlerin Tutarlılıgı Histogramı A Novel Shape Descriptor: Intersection
+    Consistency Histograms'
+  year: null

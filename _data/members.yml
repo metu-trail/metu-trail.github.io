@@ -1,0 +1,120 @@
+# Graduate students and past members. Edit freely on GitHub.
+# Replace the placeholders below; delete entries you do not need, copy one to add more.
+#   photo   : file name in assets/img/people/ (leave empty for a generic avatar)
+#   url     : personal webpage (optional)
+#   degree  : PhD or MSc
+#   advisors: PI keys from _data/pis.yml (akbas, aydin, cinbis, kalkan)
+#   topic   : one-line research topic (optional)
+#   now     : (past members) current position (optional)
+
+students:
+  - name: Student Name 1
+    degree: PhD
+    advisors: []
+    topic: Research topic
+    photo: ''
+    url: ''
+
+  - name: Student Name 2
+    degree: MSc
+    advisors: []
+    topic: Research topic
+    photo: ''
+    url: ''
+
+  - name: Student Name 3
+    degree: PhD
+    advisors: []
+    topic: Research topic
+    photo: ''
+    url: ''
+
+  - name: Student Name 4
+    degree: MSc
+    advisors: []
+    topic: Research topic
+    photo: ''
+    url: ''
+
+  - name: Student Name 5
+    degree: PhD
+    advisors: []
+    topic: Research topic
+    photo: ''
+    url: ''
+
+  - name: Student Name 6
+    degree: MSc
+    advisors: []
+    topic: Research topic
+    photo: ''
+    url: ''
+
+  - name: Student Name 7
+    degree: PhD
+    advisors: []
+    topic: Research topic
+    photo: ''
+    url: ''
+
+  - name: Student Name 8
+    degree: MSc
+    advisors: []
+    topic: Research topic
+    photo: ''
+    url: ''
+
+alumni:
+  - name: Alumnus Name 1
+    degree: PhD
+    year: 2025
+    advisors: []
+    thesis: Thesis title
+    now: Current position
+    photo: ''
+    url: ''
+
+  - name: Alumnus Name 2
+    degree: MSc
+    year: 2025
+    advisors: []
+    thesis: Thesis title
+    now: Current position
+    photo: ''
+    url: ''
+
+  - name: Alumnus Name 3
+    degree: PhD
+    year: 2025
+    advisors: []
+    thesis: Thesis title
+    now: Current position
+    photo: ''
+    url: ''
+
+  - name: Alumnus Name 4
+    degree: MSc
+    year: 2025
+    advisors: []
+    thesis: Thesis title
+    now: Current position
+    photo: ''
+    url: ''
+
+  - name: Alumnus Name 5
+    degree: PhD
+    year: 2025
+    advisors: []
+    thesis: Thesis title
+    now: Current position
+    photo: ''
+    url: ''
+
+  - name: Alumnus Name 6
+    degree: MSc
+    year: 2025
+    advisors: []
+    thesis: Thesis title
+    now: Current position
+    photo: ''
+    url: ''

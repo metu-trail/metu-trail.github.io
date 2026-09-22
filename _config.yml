@@ -1,0 +1,39 @@
+# Site settings. After editing this file, the site rebuilds automatically on GitHub.
+title: METU-TRAIL
+long_title: Trustworthy and Responsible AI Lab
+description: >-
+  The Trustworthy and Responsible AI Lab (TRAIL) at the Department of Computer Engineering,
+  Middle East Technical University, Ankara.
+url: https://metu-trail.github.io
+baseurl: ""
+
+email: skalkan@metu.edu.tr
+address:
+  - Dept. of Computer Engineering, Middle East Technical University
+  - Dumlupinar Bulvari No:1
+  - Cankaya, Ankara, Turkey
+
+# Navigation bar (order matters)
+nav:
+  - title: Home
+    url: /
+  - title: Research
+    url: /research/
+  - title: Members
+    url: /members/
+  - title: Publications
+    url: /publications/
+  - title: Courses
+    url: /courses/
+
+markdown: kramdown
+plugins:
+  - jekyll-seo-tag
+
+exclude:
+  - scripts/
+  - vendor/
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - "*.py"

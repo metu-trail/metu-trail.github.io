@@ -1,0 +1,27 @@
+{%- comment -%}
+  Renders one publication. Usage: {% include pub.html pub=p %}
+  PI names (or their aliases in _data/pis.yml) are highlighted and linked.
+{%- endcomment -%}
+{%- assign p = include.pub -%}
+<li class="pub" data-themes="{{ p.themes | join: ' ' }}" data-pis="
+  {%- for a in p.authors -%}{%- for pi in site.data.pis -%}{%- if a == pi.name or pi.aliases contains a -%}{{ pi.key }} {% endif -%}{%- endfor -%}{%- endfor -%}">
+  <div class="pub-title">
+    {%- if p.url and p.url != "" -%}<a href="{{ p.url }}">{{ p.title }}</a>{%- else -%}{{ p.title }}{%- endif -%}
+  </div>
+  <div class="pub-authors">
+    {%- for a in p.authors -%}
+      {%- assign hit = nil -%}
+      {%- for pi in site.data.pis -%}{%- if a == pi.name or pi.aliases contains a -%}{%- assign hit = pi -%}{%- endif -%}{%- endfor -%}
+      {%- if hit -%}<a class="pi-name" href="{{ hit.url }}">{{ hit.name }}</a>{%- else -%}{{ a }}{%- endif -%}
+      {%- unless forloop.last -%}, {% endunless -%}
+    {%- endfor -%}
+  </div>
+  <div class="pub-meta">
+    {%- if p.venue and p.venue != "" -%}<span class="pub-venue">{{ p.venue }}</span>{%- endif -%}
+    {%- if include.show_year and p.year -%}<span class="pub-year">{{ p.year }}</span>{%- endif -%}
+    {%- for t in p.themes -%}
+      {%- assign th = site.data.themes | where: "key", t | first -%}
+      <a class="tag tag-{{ t }}" href="{{ '/research/' | relative_url }}#{{ t }}">{{ th.name | default: t }}</a>
+    {%- endfor -%}
+  </div>
+</li>
